@@ -9,7 +9,7 @@ import SwiftUI
 
 struct APICallDemo: View {
     
-    @ObservedObject var networkingManager = NetworkingManager()
+    @StateObject var networkingManager = NetworkingManager()
     
     var body: some View {
         List(networkingManager.dataList.features, id: \.properties) { data in
@@ -57,7 +57,7 @@ func timeConverter(timeStamp: Double) -> String {
 
 struct APICallDemo_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        APICallDemo()
     }
 }
 

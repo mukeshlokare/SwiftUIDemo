@@ -72,7 +72,7 @@ struct SwiftUIViewInterview: View {
                     ForEach(viewModel.persons, id: \.name){ person in
                         Section(header: Text("Hello \(person.name)")) {
                             ForEach(person.childs, id: \.name){ child in
-                                NavigationLink(destination: RegistrationView()) {
+                                NavigationLink(destination: PersonDetailView(name: child.name)) {
                                     Text("Hello \(child.name)")
                                 }
                             }

@@ -10,6 +10,7 @@
 		752869372B455AFF00C6F1EE /* SwiftUIViewInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752869362B455AFF00C6F1EE /* SwiftUIViewInterview.swift */; };
 		752869392B455C4D00C6F1EE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752869382B455C4D00C6F1EE /* Person.swift */; };
 		7528693B2B455CC500C6F1EE /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528693A2B455CC500C6F1EE /* PersonViewModel.swift */; };
+		7528693D2B457FE100C6F1EE /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528693C2B457FE100C6F1EE /* PersonDetailView.swift */; };
 		75B023402B42A12200CC85CC /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0233F2B42A12200CC85CC /* SwiftUIDemoApp.swift */; };
 		75B023422B42A12200CC85CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B023412B42A12200CC85CC /* ContentView.swift */; };
 		75B023442B42A12300CC85CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B023432B42A12300CC85CC /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 		752869362B455AFF00C6F1EE /* SwiftUIViewInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewInterview.swift; sourceTree = "<group>"; };
 		752869382B455C4D00C6F1EE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7528693A2B455CC500C6F1EE /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		7528693C2B457FE100C6F1EE /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
 		75B0233C2B42A12200CC85CC /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B0233F2B42A12200CC85CC /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		75B023412B42A12200CC85CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				752869362B455AFF00C6F1EE /* SwiftUIViewInterview.swift */,
 				752869382B455C4D00C6F1EE /* Person.swift */,
 				7528693A2B455CC500C6F1EE /* PersonViewModel.swift */,
+				7528693C2B457FE100C6F1EE /* PersonDetailView.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				752869372B455AFF00C6F1EE /* SwiftUIViewInterview.swift in Sources */,
 				75B0239F2B42A1D000CC85CC /* SearchUserResponse.swift in Sources */,
 				75B023982B42A1D000CC85CC /* CardDemo.swift in Sources */,
+				7528693D2B457FE100C6F1EE /* PersonDetailView.swift in Sources */,
 				75B0239D2B42A1D000CC85CC /* Extension.swift in Sources */,
 				75B023902B42A1D000CC85CC /* CombineDemo2View.swift in Sources */,
 				75B023962B42A1D000CC85CC /* CellRow.swift in Sources */,
