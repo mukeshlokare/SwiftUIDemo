@@ -11,6 +11,7 @@ struct OverlayView: View {
     @State private var showingOverlay = false
         var body: some View {
             ZStack {
+                
                 VStack {
                     Text("Hello World")
                 }
@@ -25,7 +26,7 @@ struct OverlayView: View {
                             self.showingOverlay.toggle()
                         }
                 }
-
+                
                 if showingOverlay {
                     Rectangle()
                         .stroke(Color.blue, lineWidth: 5)

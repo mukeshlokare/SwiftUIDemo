@@ -43,7 +43,9 @@ struct RegistrationView: View {
                     .shadow(radius: 10.0, x: 20, y: 10)
             }.padding([.leading, .trailing], 27.5)
             
-            Button(action: {}) {
+            Button(action: {
+                print("Button clicked")
+            }) {
                 Text("Sign In")
                     .font(.headline)
                     .foregroundColor(.white)

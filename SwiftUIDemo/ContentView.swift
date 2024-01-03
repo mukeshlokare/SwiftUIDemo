@@ -9,22 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     
-//    @EnvironmentObject var appUtil : AppUtil
+    @StateObject var appUtil = AppUtil()
     
     var body: some View {
         NavigationView{
             VStack{
-//                Button(action: {
-//                    self.appUtil.count += 1
-//                }) {
-//                    Text("Button Tap")
-//                }
+                Button(action: {
+                    self.appUtil.count += 1
+                }) {
+                    Text("Button Tap")
+                }
                 
                 List(demos){ demo in
                     DemoCell(demo:demo)
                 }.navigationBarTitle("SwiftUI")
             }
-        }
+        }.environmentObject(appUtil)
     }
 }
 
